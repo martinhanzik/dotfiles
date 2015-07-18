@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+
+# dot-prefixed files are skipped unless explicitly named
+rcup -K config/zsh/{.zprofile,.zshenv,.zshrc,.zlogin,.zlogout,.zpreztorc}
+
+if [ ! -h ${HOME}/.config/zsh/.zprezto ]; then
+	ln -s ${HOME}/.dotfiles/config/zsh/.zprezto ${HOME}/.config/zsh/.zprezto
+fi

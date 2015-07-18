@@ -1,0 +1,34 @@
+Host hanzik
+    HostName hanzik.com
+    Port 3456
+    User hanziq
+
+Host fray1
+    HostName fray1.fit.cvut.cz
+    User hanzimar
+
+Host fray3
+    HostName fray3.fit.cvut.cz
+    User hanzimar
+
+Host orange
+    HostName 10.0.0.35
+    User x
+
+Host server
+    HostName 10.0.0.1
+    User martin
+
+Host progtest
+    HostName 10.5.5.1
+    User debian
+    Port 3022
+
+Host karthex
+    HostName 67.191.191.100
+    Port 9888
+    User Kris
+
+Host *
+    Compression yes
+    EscapeChar ^y
