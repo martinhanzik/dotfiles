@@ -24,7 +24,12 @@ alias s="reattach-to-user-namespace subl"
 alias g="git"
 alias tmux="tmux -2 -u"
 alias rsyncp='rsync -avz -e ssh --progress --partial '
-alias vim="mvim -v"
+
+if type mvim > /dev/null; then
+	alias vim="mvim -v"
+fi
+
+alias hanzik="ssh hanzik -t -- /bin/sh -c 'tmux has-session && exec tmux attach || exec tmux'"
 
 # suffix aliases
 # These are cool, following the alias below if I write
