@@ -5,22 +5,9 @@ alias ls='ls --group-directories-first --color=auto --classify' # classify symbo
 alias grep='grep -i'
 alias ag='ag -i'
 alias du1='du --max-depth=1'
-alias mkdir='nocorrect mkdir -pv'
+alias mkdir='mkdir -pv'
 alias ping='ping -c 4'
 
-# I don't like interactive commands
-alias cp='nocorrect cp'
-alias mv='nocorrect mv'
-alias rm='nocorrect rm'
-alias ln='nocorrect ln'
-
-# privileged access
-alias sudo='sudo '
-alias root='sudo su'
-alias reboot='sudo reboot'
-alias halt='sudo halt'
-
-alias s="reattach-to-user-namespace subl"
 alias g="git"
 alias tmux="tmux -2 -u"
 alias rsyncp='rsync -avz -e ssh --progress --partial '
@@ -29,7 +16,23 @@ if type mvim > /dev/null; then
 	alias vim="mvim -v"
 fi
 
-alias hanzik="ssh hanzik -t -- /bin/sh -c 'tmux has-session && exec tmux attach || exec tmux'"
+alias sudo='my_sudo '
+
+function my_sudo {
+    while [[ $# > 0 ]]; do
+        case "$1" in
+        command) shift ; break ;;
+        nocorrect|noglob) shift ;;
+        *) break ;;
+        esac
+    done
+    if [[ $# = 0 ]]; then
+        command sudo zsh
+    else
+        noglob command sudo $@
+    fi
+}
+
 
 # suffix aliases
 # These are cool, following the alias below if I write

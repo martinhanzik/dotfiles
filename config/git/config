@@ -12,7 +12,6 @@
 
 	# Show the diff between the latest commit and the current state
   d = !"git diff-index --quiet HEAD -- || clear; git --no-pager diff --patch-with-stat"
-	
   dc = !"git diff-index --quiet HEAD -- || clear; git --no-pager diff --cached --patch-with-stat"
 
 	c = commit
@@ -20,8 +19,6 @@
   co = checkout
 
   cp = cherry-pick
-
-  cf = !git diff --name-only | uniq | xargs subl
 
 	f = fetch --prune --verbose
 
@@ -32,7 +29,7 @@
   a = add
 
   p = push
-	w = wtf
+  st = stash
 
 [apply]
 

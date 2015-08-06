@@ -2,6 +2,7 @@ Host hanzik
     HostName hanzik.com
     Port 3456
     User hanziq
+    ForwardAgent yes
 
 Host fray1
     HostName fray1.fit.cvut.cz
