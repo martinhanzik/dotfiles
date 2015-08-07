@@ -61,7 +61,7 @@ zstyle ':prezto:module:git:status:ignore' submodules 'all'
 #
 
 # Set the command prefix on non-GNU systems.
-# zstyle ':prezto:module:gnu-utility' prefix 'g'
+zstyle ':prezto:module:gnu-utility' prefix 'g'
 
 #
 # History Substring Search
