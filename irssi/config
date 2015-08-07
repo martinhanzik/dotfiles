@@ -1,0 +1,78 @@
+settings = {
+  "fe-common/core" = {
+    # Solarized
+    theme = "solarized-universal";
+    hilight_color = "= %R";
+    beep_when_window_active = "yes";
+  };
+  core = {
+    real_name = "Martin Hanzik";
+    user_name = "HanziQ";
+    nick = "HanziQ";
+  };
+  "fe-text" = { actlist_sort = "refnum"; };
+  "perl/core/scripts" = {
+    awl_shared_sbar = "OFF";
+    awl_block = "-14";
+    awl_all_disable = "no";
+    awl_viewer = "no";
+    awl_sbar_maxlength = "no";
+    growl_icon = "irssi-black.png";
+    growl_on_regex = "HanziQ.*";
+    growl_on_nick = "HanziQ";
+  };
+};
+hilights = (
+  { text = "HanziQ"; color = "%M"; nick = "yes"; word = "yes"; }
+);
+statusbar = {
+  items = {
+    # Solarized
+    lag = "{sb Lag: %m$0-%n}";
+    act = "{sb Act: $0-}";
+    more = "%k%3-- more --%n";
+  };
+  default = {
+    window = {
+      items = {
+        barstart = { priority = "100"; };
+        user = { };
+        window = { };
+        window_empty = { };
+        lag = { priority = "-1"; };
+        act = { priority = "10"; };
+        more = { priority = "-1"; alignment = "right"; };
+        barend = { priority = "100"; alignment = "right"; };
+      };
+      disabled = "yes";
+    };
+    awl_0 = {
+      items = {
+        barstart = { priority = "100"; };
+        awl_0 = { };
+        barend = { priority = "100"; alignment = "right"; };
+      };
+    };
+  };
+};
+chatnets = {
+  EsperNET = {
+    type = "IRC";
+    autosendcmd = "/^msg NickServ IDENTIFY HanziQ 11235813;wait 2000";
+  };
+};
+servers = (
+  {
+    address = "hanzik.com";
+    chatnet = "EsperNET";
+    port = "6556";
+    password = "HanziQ/EsperNET:11235813";
+    use_ssl = "no";
+    ssl_verify = "no";
+    autoconnect = "yes";
+  }
+);
+channels = (
+  # { name = "#factorio"; chatnet = "EsperNET"; autojoin = "yes"; }
+);
+logs = { };
