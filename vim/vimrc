@@ -1,6 +1,8 @@
 set background=dark
 colorscheme solarized
 
+set guifont=Source\ Code\ Pro\ Light:h12
+
 " Make Vim more useful
 set nocompatible
 " Use the OS clipboard by default (on versions compiled with `+clipboard`)
