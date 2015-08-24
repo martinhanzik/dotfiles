@@ -1,5 +1,7 @@
 # ls
 alias ls='ls --group-directories-first --color=auto --classify' # classify symbols
+alias rm='nocorrect rm'
+alias mv='nocorrect mv'
 
 # modified commands
 alias grep='grep -i'
@@ -11,10 +13,6 @@ alias ping='ping -c 4'
 alias g="git"
 alias tmux="tmux -2 -u"
 alias rsyncp='rsync -avz -e ssh --progress --partial '
-
-if type mvim > /dev/null; then
-	alias vim="mvim -v"
-fi
 
 alias sudo='my_sudo '
 

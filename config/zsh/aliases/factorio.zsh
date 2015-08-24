@@ -1,0 +1,6 @@
+alias fa='make && ./bin/debug/factorio'
+alias fd='make && lldb -or ./bin/debug/factorio'
+alias fb='make && lldb ./bin/debug/factorio'
+alias fp='make mode=prod && ./bin/prod/factorio'
+alias fk='pkill -9 factorio'
+alias cfp='cd ~/Code/Factorio/Primary'
