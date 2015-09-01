@@ -16,9 +16,13 @@ Host orange
     HostName 10.0.0.35
     User x
 
-Host server
+Host s
     HostName 10.0.0.1
     User martin
+
+Host bs
+    HostName 10.0.0.1
+    User build
 
 Host progtest
     HostName 10.5.5.1
