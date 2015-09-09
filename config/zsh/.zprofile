@@ -42,6 +42,7 @@ local pathdirs
 # gnubin contains coreutils without the g prefix
 pathdirs=(
     /usr/local/bin
+    /usr/local/sbin
     $HOME/bin
 )
 
