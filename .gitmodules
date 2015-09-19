@@ -5,5 +5,5 @@
 	path = config/zsh/.zprezto
 	url = https://github.com/sorin-ionescu/prezto.git
 [submodule "fonts"]
-	path = fonts
-	url = git@github.com:powerline/fonts.git
+	path = .other/fonts
+	url = https://github.com/powerline/fonts.git
