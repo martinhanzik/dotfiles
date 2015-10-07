@@ -55,12 +55,6 @@ statusbar = {
     };
   };
 };
-chatnets = {
-  EsperNET = {
-    type = "IRC";
-    autosendcmd = "/^msg NickServ IDENTIFY HanziQ 11235813;wait 2000";
-  };
-};
 servers = (
   {
     address = "hanzik.com";
@@ -76,3 +70,5 @@ channels = (
   # { name = "#factorio"; chatnet = "EsperNET"; autojoin = "yes"; }
 );
 logs = { };
+chatnets = { EsperNET = { type = "IRC"; }; };
+ignores = ( );

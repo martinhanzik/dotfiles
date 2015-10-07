@@ -87,6 +87,8 @@ match ErrorMsg '\s\+$'
 set expandtab
 set tabstop=2
 set cscopetag
+set exrc
+set secure
 
 if filereadable("cscope.out")
   cs add cscope.out
