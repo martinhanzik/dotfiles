@@ -15,8 +15,6 @@ set ttyfast
 set gdefault
 " Change mapleader
 let mapleader="\<Space>"
-" Don’t add empty newlines at the end of files
-set binary
 set noeol
 " Centralize backups, swapfiles and undo history
 set noswapfile
@@ -258,6 +256,8 @@ let g:ctrlp_clear_cache_on_exit = 0
 
 " Set no file limit, we are building a big project
 let g:ctrlp_max_files = 0
+
+let g:ctrlp_match_window = 'bottom,btt,max:50'
 
 let g:gundo_close_on_revert = 1
 
