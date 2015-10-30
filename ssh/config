@@ -34,6 +34,11 @@ Host karthex
     Port 9888
     User Kris
 
+Host office
+    User martin
+    HostName office.factorio.com
+    ProxyCommand ssh hanzik -W %h:%p
+
 Host *
     Compression yes
     EscapeChar ^y

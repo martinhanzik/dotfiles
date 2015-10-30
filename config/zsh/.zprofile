@@ -44,6 +44,7 @@ pathdirs=(
     /usr/local/bin
     /usr/local/sbin
     $HOME/bin
+    $HOME/.rbenv/bin
 )
 
 # Add directories which exist to the path

@@ -53,3 +53,5 @@ done
 
 
 unset functions_path config_{files,dirs}
+
+eval "$(rbenv init -)"
