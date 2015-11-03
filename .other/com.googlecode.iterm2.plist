@@ -3619,55 +3619,6 @@
 	<real>0.10000000149011612</real>
 	<key>GlobalKeyMap</key>
 	<dict>
-		<key>0x31-0x100000</key>
-		<dict>
-			<key>Action</key>
-			<integer>11</integer>
-			<key>Text</key>
-			<string>0x01 0x31</string>
-		</dict>
-		<key>0x32-0x100000</key>
-		<dict>
-			<key>Action</key>
-			<integer>11</integer>
-			<key>Text</key>
-			<string>0x01 0x32</string>
-		</dict>
-		<key>0x33-0x100000</key>
-		<dict>
-			<key>Action</key>
-			<integer>11</integer>
-			<key>Text</key>
-			<string>0x01 0x33</string>
-		</dict>
-		<key>0x34-0x100000</key>
-		<dict>
-			<key>Action</key>
-			<integer>11</integer>
-			<key>Text</key>
-			<string>0x01 0x34</string>
-		</dict>
-		<key>0x35-0x100000</key>
-		<dict>
-			<key>Action</key>
-			<integer>11</integer>
-			<key>Text</key>
-			<string>0x01 0x35</string>
-		</dict>
-		<key>0x36-0x100000</key>
-		<dict>
-			<key>Action</key>
-			<integer>11</integer>
-			<key>Text</key>
-			<string>0x01 0x36</string>
-		</dict>
-		<key>0x37-0x100000</key>
-		<dict>
-			<key>Action</key>
-			<integer>11</integer>
-			<key>Text</key>
-			<string>0x01 0x37</string>
-		</dict>
 		<key>0x9-0x40000</key>
 		<dict>
 			<key>Action</key>
@@ -3689,26 +3640,12 @@
 			<key>Text</key>
 			<string></string>
 		</dict>
-		<key>0xf702-0x300000</key>
-		<dict>
-			<key>Action</key>
-			<integer>11</integer>
-			<key>Text</key>
-			<string>0x01 0x61</string>
-		</dict>
 		<key>0xf702-0x320000</key>
 		<dict>
 			<key>Action</key>
 			<integer>33</integer>
 			<key>Text</key>
 			<string></string>
-		</dict>
-		<key>0xf703-0x300000</key>
-		<dict>
-			<key>Action</key>
-			<integer>11</integer>
-			<key>Text</key>
-			<string>0x05</string>
 		</dict>
 		<key>0xf703-0x320000</key>
 		<dict>
@@ -3816,7 +3753,7 @@
 	<key>NSWindow Frame Preferences</key>
 	<string>2189 82 924 485 1920 -57 1920 1200 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>2326 301 585 426 1920 -57 1920 1200 </string>
+	<string>2326 301 585 426 1920 -57 1920 1177 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -5466,12 +5403,10 @@
 			<string>/Users/HanziQ</string>
 		</dict>
 	</array>
-	<key>NoSyncNeverRemindPrefsChangesCopy</key>
-	<true/>
 	<key>NoSyncTimeOfLastPromo</key>
 	<real>460625055.90961498</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>467811696.71339601</real>
+	<real>468230094.38709003</real>
 	<key>OnlyWhenMoreTabs</key>
 	<false/>
 	<key>OpenArrangementAtStartup</key>
@@ -5534,7 +5469,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2015-10-29T11:41:29Z</date>
+	<date>2015-11-03T07:52:47Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
