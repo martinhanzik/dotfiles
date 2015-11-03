@@ -3799,7 +3799,7 @@
 	<key>MaxVertically</key>
 	<false/>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/.dotfiles</string>
+	<string>~/.dotfiles/.other</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{712, 448}</string>
 	<key>NSQuotedKeystrokeBinding</key>
@@ -3814,9 +3814,9 @@
 		<string>@^q</string>
 	</dict>
 	<key>NSWindow Frame Preferences</key>
-	<string>2595 391 924 485 1920 0 1920 1080 </string>
+	<string>2189 82 924 485 1920 -57 1920 1200 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1920 0 1915 1057 1920 0 1920 1057 </string>
+	<string>2326 301 585 426 1920 -57 1920 1200 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -4481,7 +4481,7 @@
 			<key>Prompt Before Closing 2</key>
 			<integer>0</integer>
 			<key>Right Option Key Sends</key>
-			<integer>2</integer>
+			<integer>0</integer>
 			<key>Rows</key>
 			<integer>25</integer>
 			<key>Screen</key>
@@ -5469,9 +5469,9 @@
 	<key>NoSyncNeverRemindPrefsChangesCopy</key>
 	<true/>
 	<key>NoSyncTimeOfLastPromo</key>
-	<real>464381778.65179402</real>
+	<real>460625055.90961498</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>467589999.96056598</real>
+	<real>467811696.71339601</real>
 	<key>OnlyWhenMoreTabs</key>
 	<false/>
 	<key>OpenArrangementAtStartup</key>
@@ -5518,7 +5518,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/HanziQ/.dotfiles</string>
+	<string>/Users/HanziQ/.dotfiles/.other</string>
 	<key>PromptOnQuit</key>
 	<false/>
 	<key>QuitWhenAllWindowsClosed</key>
@@ -5534,7 +5534,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2015-10-26T21:45:04Z</date>
+	<date>2015-10-29T11:41:29Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>

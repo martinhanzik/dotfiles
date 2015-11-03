@@ -13,7 +13,7 @@ Host fray3
     User hanzimar
 
 Host orange
-    HostName 10.0.0.35
+    HostName orange.local
     User x
 
 Host s
