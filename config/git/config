@@ -124,3 +124,5 @@
 [user]
   name = Martin Hanzík
   email = martin@hanzik.com
+[credential]
+	helper = osxkeychain

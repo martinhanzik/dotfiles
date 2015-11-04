@@ -53,4 +53,3 @@ done
 
 
 unset functions_path config_{files,dirs}
-
