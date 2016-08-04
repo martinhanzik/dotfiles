@@ -3,6 +3,8 @@ alias ls='ls --group-directories-first --color=auto --classify' # classify symbo
 alias rm='nocorrect rm'
 alias mv='nocorrect mv'
 
+alias cdd='cd ~/Downloads'
+
 # modified commands
 alias grep='grep -i'
 alias ag='ag -i'
@@ -11,6 +13,7 @@ alias mkdir='mkdir -pv'
 alias ping='ping -c 4'
 
 alias g="git"
+alias a="atom"
 alias tmux="tmux -2 -u"
 alias rsyncp='rsync -avz -e ssh --progress --partial '
 

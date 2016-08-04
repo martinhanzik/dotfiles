@@ -3619,6 +3619,13 @@
 	<real>0.10000000149011612</real>
 	<key>GlobalKeyMap</key>
 	<dict>
+		<key>0x74-0x100000</key>
+		<dict>
+			<key>Action</key>
+			<integer>13</integer>
+			<key>Text</key>
+			<string></string>
+		</dict>
 		<key>0x9-0x40000</key>
 		<dict>
 			<key>Action</key>
@@ -3706,7 +3713,7 @@
 	<key>HideMenuBarInFullscreen</key>
 	<false/>
 	<key>HideScrollbar</key>
-	<false/>
+	<true/>
 	<key>HideTab</key>
 	<true/>
 	<key>HighlightTabLabels</key>
@@ -3745,6 +3752,11 @@
 	<string></string>
 	<key>NSScrollAnimationEnabled</key>
 	<false/>
+<<<<<<< HEAD
+=======
+	<key>NSScrollViewShouldScrollUnderTitlebar</key>
+	<false/>
+>>>>>>> 9f89710... Stuff.
 	<key>NSTableView Columns KeyBingingTable</key>
 	<array>
 		<data>
@@ -3756,7 +3768,11 @@
 		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
 		hAErATGG
 		</data>
+<<<<<<< HEAD
 		<string>302</string>
+=======
+		<string>307</string>
+>>>>>>> 9f89710... Stuff.
 	</array>
 	<key>NSTableView Hidden Columns KeyBingingTable</key>
 	<array/>
@@ -3777,9 +3793,11 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>769 110 445 376 0 0 1280 800 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>2189 82 924 485 1920 -57 1920 1200 </string>
+	<string>269 599 606 456 0 0 1920 1057 </string>
+	<key>NSWindow Frame SUUpdateAlert</key>
+	<string>2570 516 620 392 1920 0 1920 1080 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>2326 301 585 426 1920 -57 1920 1177 </string>
+	<string>2978 244 570 427 1920 0 1920 1057 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -5429,15 +5447,35 @@
 			<string>/Users/HanziQ</string>
 		</dict>
 	</array>
+	<key>NoSyncDoNotWarnBeforeMultilinePaste</key>
+	<true/>
+	<key>NoSyncDoNotWarnBeforeMultilinePaste_selection</key>
+	<integer>0</integer>
+	<key>NoSyncHaveShownPromoWithId_4</key>
+	<true/>
+	<key>NoSyncNeverRemindPrefsChangesCopy</key>
+	<true/>
+	<key>NoSyncPermissionToShowTip</key>
+	<false/>
+	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
+	<real>477567100.94049901</real>
 	<key>NoSyncTimeOfLastPromo</key>
+<<<<<<< HEAD
 	<real>453506147.12315202</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
 	<real>467808168.857768</real>
+=======
+	<real>477564348.47146398</real>
+	<key>NoSyncTimeOfLastPromoDownload</key>
+	<real>477564340.71828997</real>
+>>>>>>> 9f89710... Stuff.
 	<key>OnlyWhenMoreTabs</key>
 	<false/>
 	<key>OpenArrangementAtStartup</key>
 	<false/>
 	<key>OpenBookmark</key>
+	<false/>
+	<key>OpenNoWindowsAtStartup</key>
 	<false/>
 	<key>OpenTmuxWindowsIn</key>
 	<integer>1</integer>
@@ -5445,6 +5483,8 @@
 	<false/>
 	<key>PasteFromClipboard</key>
 	<false/>
+	<key>PasteTabToStringTabStopSize</key>
+	<integer>4</integer>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -5480,6 +5520,8 @@
 	</dict>
 	<key>PrefsCustomFolder</key>
 	<string>/Users/HanziQ/.dotfiles/.other</string>
+	<key>Print In Black And White</key>
+	<true/>
 	<key>PromptOnQuit</key>
 	<false/>
 	<key>QuitWhenAllWindowsClosed</key>
@@ -5492,12 +5534,14 @@
 	<false/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
+	<key>SUFeedAlternateAppNameKey</key>
+	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/testing.xml</string>
+	<string>https://iterm2.com/appcasts/testing3.xml</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2015-11-03T07:52:47Z</date>
+	<date>2016-04-27T15:39:04Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
@@ -5505,7 +5549,7 @@
 	<key>ShowBookmarkName</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
-	<false/>
+	<true/>
 	<key>ShowPaneTitles</key>
 	<true/>
 	<key>SmartPlacement</key>
@@ -5516,6 +5560,8 @@
 	<integer>6</integer>
 	<key>SwitchWindowModifier</key>
 	<integer>6</integer>
+	<key>TabStyle</key>
+	<integer>1</integer>
 	<key>TabViewType</key>
 	<integer>0</integer>
 	<key>ThreeFingerEmulates</key>
@@ -5551,6 +5597,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>2.1.4</string>
+	<string>2.9.20160313</string>
 </dict>
 </plist>

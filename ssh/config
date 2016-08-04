@@ -1,16 +1,6 @@
 Host hanzik
     HostName hanzik.com
-    Port 3456
-    User hanziq
     ForwardAgent yes
-
-Host fray1
-    HostName fray1.fit.cvut.cz
-    User hanzimar
-
-Host fray3
-    HostName fray3.fit.cvut.cz
-    User hanzimar
 
 Host orange
     HostName orange.local
@@ -24,20 +14,28 @@ Host bs
     HostName 10.0.0.1
     User build
 
-Host progtest
-    HostName 10.5.5.1
-    User debian
-    Port 3022
-
-Host karthex
-    HostName 67.191.191.100
-    Port 9888
-    User Kris
-
 Host office
     User martin
     HostName office.factorio.com
     ProxyCommand ssh hanzik -W %h:%p
+
+Host forums
+    User root
+    HostName 139.162.150.14
+
+Host win-build
+    User build
+    HostName 10.0.0.1
+    Port 2201
+
+Host linux-build
+    User build
+    HostName 10.0.0.1
+    Port 2200
+
+Host eu1 eu2 eu3 eu4 eu5 eu6 us1 us2 us3 mods-data
+    User root
+    HostName %h.factorio.com
 
 Host *
     Compression yes

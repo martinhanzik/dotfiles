@@ -45,6 +45,8 @@ pathdirs=(
     /usr/local/sbin
     $HOME/bin
     $HOME/.rbenv/bin
+    /usr/local/opt/coreutils/libexec/gnubin
+    $HOME/.rvm/bin
 )
 
 # Add directories which exist to the path
@@ -91,3 +93,11 @@ TMPPREFIX="${TMPDIR%/}/zsh"
 
 # Load super secret stuff
 [[ -s $HOME/.secrets ]] && source $HOME/.secrets
+
+export WORKON_HOME=$HOME/.virtualenvs
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
+export LC_CTYPE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
+source /usr/local/bin/virtualenvwrapper.sh
+source /usr/local/bin/activate.sh

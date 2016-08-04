@@ -4,6 +4,8 @@ settings = {
     theme = "solarized-universal";
     hilight_color = "= %R";
     beep_when_window_active = "yes";
+    bell_beeps = "yes";
+    beep_msg_level = "MSGS NOTICES DCC DCCMSGS HILIGHT";
   };
   core = {
     real_name = "Martin Hanzik";
@@ -59,10 +61,10 @@ servers = (
   {
     address = "hanzik.com";
     chatnet = "EsperNET";
-    port = "6556";
+    port = "6697";
     password = "HanziQ/EsperNET:11235813";
-    use_ssl = "no";
-    ssl_verify = "no";
+    use_ssl = "yes";
+    ssl_verify = "yes";
     autoconnect = "yes";
   }
 );

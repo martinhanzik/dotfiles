@@ -26,12 +26,21 @@
 
   m = merge --ff-only
 
+  fm = !"git f && git m"
+  fr = !"git f && git r"
+
   r = rebase --preserve-merges
 
+  rc = rebase --continue
+
+  ra = rebase --abort
+
   a = add
+  aa = add -A
 
   p = push
-  st = stash
+  ph = push heroku master
+  st = !"git -c commit.gpgsign=false stash"
 
 [apply]
 
@@ -41,7 +50,7 @@
 [core]
 
   # Use custom `.gitignore` and `.gitattributes`
-  excludesfile = ~/.gitignore
+	excludesfile = /Users/HanziQ/.gitignore_global
   attributesfile = ~/.gitattributes
 
   # Treat spaces before tabs and all kinds of trailing whitespace as an error
@@ -126,3 +135,13 @@
   email = martin@hanzik.com
 [credential]
 	helper = osxkeychain
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /opt/homebrew-cask/Caskroom/sourcetree/2.1/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
