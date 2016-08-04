@@ -19,10 +19,6 @@ Host office
     HostName office.factorio.com
     ProxyCommand ssh hanzik -W %h:%p
 
-Host forums
-    User root
-    HostName 139.162.150.14
-
 Host win-build
     User build
     HostName 10.0.0.1
@@ -33,7 +29,7 @@ Host linux-build
     HostName 10.0.0.1
     Port 2200
 
-Host eu1 eu2 eu3 eu4 eu5 eu6 us1 us2 us3 mods-data
+Host eu1 eu2 eu3 eu4 eu5 eu6 us1 us2 us3 mods-data forums
     User root
     HostName %h.factorio.com
 

@@ -131,8 +131,8 @@
 
   insteadOf = "gist:"
 [user]
-  name = Martin Hanzík
-  email = martin@hanzik.com
+	name = Martin Hanzík
+	email = martin@hanzik.com
 [credential]
 	helper = osxkeychain
 [difftool "sourcetree"]

@@ -59,11 +59,6 @@ set shortmess=atI
 set showmode
 " Show the filename in the window titlebar
 set title
-" Use relative line numbers
-if exists("&relativenumber")
-	set relativenumber
-	au BufReadPost * set relativenumber
-endif
 
 set splitbelow
 set splitright

@@ -47,6 +47,7 @@ pathdirs=(
     $HOME/.rbenv/bin
     /usr/local/opt/coreutils/libexec/gnubin
     $HOME/.rvm/bin
+    $HOME/.cargo/bin
 )
 
 # Add directories which exist to the path
