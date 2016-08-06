@@ -47,6 +47,7 @@ pathdirs=(
     $HOME/.rbenv/bin
     /usr/local/opt/coreutils/libexec/gnubin
     $HOME/.rvm/bin
+    /opt/cross/bin
     $HOME/.cargo/bin
 )
 

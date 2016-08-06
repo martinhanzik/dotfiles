@@ -33,6 +33,10 @@ Host eu1 eu2 eu3 eu4 eu5 eu6 us1 us2 us3 mods-data forums
     User root
     HostName %h.factorio.com
 
+Host ttd
+    User hanziq
+    HostName ttd.hanzik.com
+
 Host *
     Compression yes
     EscapeChar ^y
