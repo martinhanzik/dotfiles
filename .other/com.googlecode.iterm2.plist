@@ -3765,8 +3765,7 @@
 		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
 		hAErATGG
 		</data>
-		<string>302</string>
-		<string>322</string>
+		<string>307</string>
 	</array>
 	<key>NSTableView Hidden Columns KeyBingingTable</key>
 	<array/>
@@ -3783,11 +3782,17 @@
 		<string>@^q</string>
 	</dict>
 	<key>NSWindow Frame Preferences</key>
-	<string>675 594 606 456 0 0 1920 1057 </string>
+	<string>269 599 606 456 0 0 1920 1057 </string>
+	<key>NSWindow Frame SUAutomaticUpdateAlert</key>
+	<string>2572 662 616 174 1920 0 1920 1057 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>650 499 620 392 0 0 1920 1057 </string>
+	<string>2570 516 620 392 1920 0 1920 1080 </string>
+	<key>NSWindow Frame SharedPreferences</key>
+	<string>2186 64 1016 502 1920 0 1920 1080 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1920 630 585 427 1920 0 1920 1057 </string>
+	<string>1920 6 1914 1051 1920 0 1920 1080 </string>
+	<key>NSWindow Frame iTerm Window 1</key>
+	<string>2146 135 570 427 1920 0 1920 1080 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -4096,6 +4101,13 @@
 					<key>Text</key>
 					<string>0xd</string>
 				</dict>
+				<key>0x30-0x100000</key>
+				<dict>
+					<key>Action</key>
+					<integer>11</integer>
+					<key>Text</key>
+					<string>0x01 0x30</string>
+				</dict>
 				<key>0x30-0x200000</key>
 				<dict>
 					<key>Action</key>
@@ -4103,12 +4115,26 @@
 					<key>Text</key>
 					<string>0</string>
 				</dict>
+				<key>0x31-0x100000</key>
+				<dict>
+					<key>Action</key>
+					<integer>11</integer>
+					<key>Text</key>
+					<string>0x01 0x31</string>
+				</dict>
 				<key>0x31-0x200000</key>
 				<dict>
 					<key>Action</key>
 					<integer>12</integer>
 					<key>Text</key>
 					<string>1</string>
+				</dict>
+				<key>0x32-0x100000</key>
+				<dict>
+					<key>Action</key>
+					<integer>11</integer>
+					<key>Text</key>
+					<string>0x01 0x32</string>
 				</dict>
 				<key>0x32-0x200000</key>
 				<dict>
@@ -4124,6 +4150,13 @@
 					<key>Text</key>
 					<string>0x00</string>
 				</dict>
+				<key>0x33-0x100000</key>
+				<dict>
+					<key>Action</key>
+					<integer>11</integer>
+					<key>Text</key>
+					<string>0x01 0x33</string>
+				</dict>
 				<key>0x33-0x200000</key>
 				<dict>
 					<key>Action</key>
@@ -4137,6 +4170,13 @@
 					<integer>11</integer>
 					<key>Text</key>
 					<string>0x1b</string>
+				</dict>
+				<key>0x34-0x100000</key>
+				<dict>
+					<key>Action</key>
+					<integer>11</integer>
+					<key>Text</key>
+					<string>0x01 0x34</string>
 				</dict>
 				<key>0x34-0x200000</key>
 				<dict>
@@ -4152,6 +4192,13 @@
 					<key>Text</key>
 					<string>0x1c</string>
 				</dict>
+				<key>0x35-0x100000</key>
+				<dict>
+					<key>Action</key>
+					<integer>11</integer>
+					<key>Text</key>
+					<string>0x01 0x35</string>
+				</dict>
 				<key>0x35-0x200000</key>
 				<dict>
 					<key>Action</key>
@@ -4165,6 +4212,13 @@
 					<integer>11</integer>
 					<key>Text</key>
 					<string>0x1d</string>
+				</dict>
+				<key>0x36-0x100000</key>
+				<dict>
+					<key>Action</key>
+					<integer>11</integer>
+					<key>Text</key>
+					<string>0x01 0x36</string>
 				</dict>
 				<key>0x36-0x200000</key>
 				<dict>
@@ -4180,6 +4234,13 @@
 					<key>Text</key>
 					<string>0x1e</string>
 				</dict>
+				<key>0x37-0x100000</key>
+				<dict>
+					<key>Action</key>
+					<integer>11</integer>
+					<key>Text</key>
+					<string>0x01 0x37</string>
+				</dict>
 				<key>0x37-0x200000</key>
 				<dict>
 					<key>Action</key>
@@ -4193,6 +4254,13 @@
 					<integer>11</integer>
 					<key>Text</key>
 					<string>0x1f</string>
+				</dict>
+				<key>0x38-0x100000</key>
+				<dict>
+					<key>Action</key>
+					<integer>11</integer>
+					<key>Text</key>
+					<string>0x01 0x38</string>
 				</dict>
 				<key>0x38-0x200000</key>
 				<dict>
@@ -4208,12 +4276,33 @@
 					<key>Text</key>
 					<string>0x7f</string>
 				</dict>
+				<key>0x39-0x100000</key>
+				<dict>
+					<key>Action</key>
+					<integer>11</integer>
+					<key>Text</key>
+					<string>0x01 0x39</string>
+				</dict>
 				<key>0x39-0x200000</key>
 				<dict>
 					<key>Action</key>
 					<integer>12</integer>
 					<key>Text</key>
 					<string>9</string>
+				</dict>
+				<key>0x74-0x100000</key>
+				<dict>
+					<key>Action</key>
+					<integer>11</integer>
+					<key>Text</key>
+					<string>0x01 0x63</string>
+				</dict>
+				<key>0x77-0x100000</key>
+				<dict>
+					<key>Action</key>
+					<integer>11</integer>
+					<key>Text</key>
+					<string>0x01 0x26</string>
 				</dict>
 				<key>0xf700-0x220000</key>
 				<dict>
@@ -4285,6 +4374,13 @@
 					<key>Text</key>
 					<string>b</string>
 				</dict>
+				<key>0xf702-0x300000</key>
+				<dict>
+					<key>Action</key>
+					<integer>11</integer>
+					<key>Text</key>
+					<string>0x01 0x61</string>
+				</dict>
 				<key>0xf703-0x220000</key>
 				<dict>
 					<key>Action</key>
@@ -4312,6 +4408,13 @@
 					<integer>10</integer>
 					<key>Text</key>
 					<string>f</string>
+				</dict>
+				<key>0xf703-0x300000</key>
+				<dict>
+					<key>Action</key>
+					<integer>11</integer>
+					<key>Text</key>
+					<string>0x05</string>
 				</dict>
 				<key>0xf704-0x20000</key>
 				<dict>
@@ -5437,6 +5540,8 @@
 			<string>/Users/HanziQ</string>
 		</dict>
 	</array>
+	<key>NoSyncConfirmBeta</key>
+	<true/>
 	<key>NoSyncDoNotWarnBeforeMultilinePaste</key>
 	<true/>
 	<key>NoSyncDoNotWarnBeforeMultilinePaste_selection</key>
@@ -5444,7 +5549,7 @@
 	<key>NoSyncHaveShownPromoWithId_4</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
-	<string>2D055AB1-CFEE-419E-B465-1AE945B9ED8F</string>
+	<string>EFD52A5C-2B21-444B-80B2-DA81B3C78CB7</string>
 	<key>NoSyncNeverRemindPrefsChangesCopy</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
@@ -5456,9 +5561,9 @@
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>477606797.42462999</real>
 	<key>NoSyncTimeOfLastPromo</key>
-	<real>477606656.91043198</real>
+	<real>477564348.47146398</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>477606648.01437002</real>
+	<real>477564340.71828997</real>
 	<key>OnlyWhenMoreTabs</key>
 	<false/>
 	<key>OpenArrangementAtStartup</key>
@@ -5520,16 +5625,18 @@
 	<integer>8</integer>
 	<key>RightOption</key>
 	<integer>3</integer>
+	<key>SUAutomaticallyUpdate</key>
+	<true/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/testing3.xml?shard=77</string>
+	<string>https://iterm2.com/appcasts/final.xml?shard=56</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-04-30T19:17:06Z</date>
+	<date>2017-06-05T09:06:03Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
@@ -5585,6 +5692,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>2.9.20160426</string>
+	<string>3.0.14</string>
 </dict>
 </plist>

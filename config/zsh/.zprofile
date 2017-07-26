@@ -49,7 +49,8 @@ pathdirs=(
     $HOME/.rvm/bin
     /opt/cross/bin
     $HOME/.cargo/bin
-    $HOME/.pyenv/shims
+    `yarn global bin`
+    `pyenv root`/shims
     /usr/local/opt/llvm/bin
 )
 

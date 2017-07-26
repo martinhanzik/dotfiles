@@ -24,8 +24,7 @@ Host boffice
 
 Host win-build
     User build
-    HostName 10.0.0.1
-    Port 2201
+    HostName 10.0.0.4
 
 Host linux-build
     User build
@@ -39,6 +38,10 @@ Host eu1 eu2 eu3 eu4 eu5 eu6 us1 us2 us3 mods-data forums
 Host ttd
     User hanziq
     HostName ttd.hanzik.com
+
+Host challenge
+    User factorio
+    HostName 139.162.187.142
 
 Host *
     Compression yes
